@@ -1,0 +1,36 @@
+@media (max-width:1000px) {
+    .hero-section .hero-content h1 {
+        font-size: 4rem;
+    }
+    .hero-section .hero-content p {
+        font-size: 1.8rem;
+        margin-top: 16px;
+    }
+    .col-6 {
+        flex-basis: 100%;
+    }
+}
+@media (max-width:990px) {
+    .col-3 {
+        flex-basis: 50%;
+    }
+    .col-4 {
+        flex-basis: 50%;
+    }
+    .header-section.large .title {
+        font-size: 5rem;
+    }
+}
+@media (max-width:780px) {
+    .col-3 {
+        flex-basis: 100%;
+    }
+    .col-4 {
+        flex-basis: 100%;
+    }
+}
+@media (max-width:600px) {
+    .hero-section .hero-content .botton {
+        width: 100%;
+    }
+}
